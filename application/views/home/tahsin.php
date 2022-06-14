@@ -17,17 +17,17 @@
               <br>
               <h2 style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 34px;line-height: 50px;background: linear-gradient(358deg, #06876C 25%, #49C4AA 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Program Tahsin Tilawah</h2>
               <p style="font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 16px;line-height: 20px;color: #666666;">
-              Dasar program ini mengacu pada sabda Nabi Muhammad SAW, “bacalah dengan tartil sebagaimana kamu membacanya dengan tartil pada waktu kamu masih di dunia, karena sesungguhnya tempatmu tergantung pada akhir ayat yang kamu baca.” ( HR. Abu Daud dan Tirmidzi).
-<br><br>
-Hal itu, karena membaca Al Qur’an dengan tartil dapat membantu untuk mentadabburi dan memikirkan maknanya, menggeraakkan hati, dapat beribadah dengan ayat – ayatnya dan dapat menjadikan diri bersiap – siap siaga secara sempurna ( focus ) kepadanya.
-<br><br>
-Sehingga terdengan bacaan yang tak tergesa – gesa, dan lebih terasa indah dikala seorang membaca Al Qur’an dengan baik dan benar, sesuai hukum – hukum yang telah disepakati para pakar ulama tajwid, untuk mempermudah para santri RQIU dalam mempelajarinya, maka di buatkan dengan 4 tingkatan tahsin :
-<ol>
-        <li>Tahsin Tilawah  Semester 1 </li>
-        <li>Tahsin Tilawah  Semester 2 </li>
-        <li>Tahsin Tilawah  Semester 3 </li>
-        <li>	Tahsin Tilawah  Semester 4 </li>
-    </ol>
+                Dasar program ini mengacu pada sabda Nabi Muhammad SAW, “bacalah dengan tartil sebagaimana kamu membacanya dengan tartil pada waktu kamu masih di dunia, karena sesungguhnya tempatmu tergantung pada akhir ayat yang kamu baca.” ( HR. Abu Daud dan Tirmidzi).
+                <br><br>
+                Hal itu, karena membaca Al Qur’an dengan tartil dapat membantu untuk mentadabburi dan memikirkan maknanya, menggeraakkan hati, dapat beribadah dengan ayat – ayatnya dan dapat menjadikan diri bersiap – siap siaga secara sempurna ( focus ) kepadanya.
+                <br><br>
+                Sehingga terdengan bacaan yang tak tergesa – gesa, dan lebih terasa indah dikala seorang membaca Al Qur’an dengan baik dan benar, sesuai hukum – hukum yang telah disepakati para pakar ulama tajwid, untuk mempermudah para santri RQIU dalam mempelajarinya, maka di buatkan dengan 4 tingkatan tahsin :
+              <ol>
+                <li>Tahsin Tilawah Semester 1 </li>
+                <li>Tahsin Tilawah Semester 2 </li>
+                <li>Tahsin Tilawah Semester 3 </li>
+                <li> Tahsin Tilawah Semester 4 </li>
+              </ol>
 
               </p>
               <div class="uk-child-width-1-2@m" uk-grid uk-lightbox="animation: scale">
@@ -91,17 +91,15 @@ Sehingga terdengan bacaan yang tak tergesa – gesa, dan lebih terasa indah dika
             <div class="card text-white bg-dark mb-3" style="max-width: 18rem;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;margin-left: 18px;">
               <div class="card-header" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 20px;color: #FFFFFF;">
                 <div class="col">
-                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;">Hari ini <b style="margin-left: 47px;">78</b></a>
-                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;margin-left: 13px;">kemarin <b style="margin-left: 16px;">45</b></a>
+                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;">Pengunjung Hari ini <b style="margin-left: 47px;"><?= $pengunjunghariini; ?></b></a>
                 </div>
                 <br>
                 <div class="col">
-                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;">Minggu ini <b style="margin-left: 20px;">124</b></a>
-                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;margin-left: 13px;">Bulan ini <b style="margin-left: 7px;">224</b></a>
+                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;">Pengunjung Online <b style="margin-left: 20px;"><?= $pengunjungonline; ?></b></a>
                 </div>
                 <hr color="white">
                 <div class="col">
-                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 20px;line-height: 25px;color: #FFFFFF;">Total Kunjungan 12455</a>
+                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 20px;line-height: 25px;color: #FFFFFF;">Total Kunjungan <?= $totalpengunjung; ?></a>
                 </div>
               </div>
             </div>

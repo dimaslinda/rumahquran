@@ -17,16 +17,16 @@
               <br>
               <h2 style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 34px;line-height: 50px;background: linear-gradient(358deg, #06876C 25%, #49C4AA 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Program Berantas Buta Huruf Qur'an</h2>
               <p style="font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 16px;line-height: 20px;color: #666666;">
-              Program brantas buta huruf Al Qur’an ( BBQ ) adalah program pengajaran yang mengantarkan anak didik agar bisa membaca Al Qur’an denga metode IHYA yang sudah di launching kan dalam waktu kurang lebih 12 bulan / 1 tahun.  <br><br>
-           Allah berfirman yang artinya “ jika kami bacakan ayat Al Qur’an, maka ikutilah bacaan tersebut. kemudian kami akan medatangkan penjelasan.” <br><br>
-          Berantas buta huruf Al Qur’an ( BBQ ) bertujuan untuk menyiapkan anak didik agar menjadi generasi Qur’ani yang mampu membaca Al Qur’an sesuai dengan kaidah kaidah tajwid. Target pokok yag ingin di capai dalam program ini adalah mengantarkan anak didik mampu membaca Al Qur’an dengan baik dan benar. <br><br>
-         Program Berantas Buta Huruf Al – Qur’an ( BBQ ) ini kelasnya di buka untuk usia anak – anak, Remaja  & Ummahat. Untuk lamanya program pendidikan 5/6 bulan ( satu semester ), bagi santri yang sudah bisa membaca Al Qur’an akan di naikkan jenjang pendidikan ke program Tahsin 1. 
+                Program brantas buta huruf Al Qur’an ( BBQ ) adalah program pengajaran yang mengantarkan anak didik agar bisa membaca Al Qur’an denga metode IHYA yang sudah di launching kan dalam waktu kurang lebih 12 bulan / 1 tahun. <br><br>
+                Allah berfirman yang artinya “ jika kami bacakan ayat Al Qur’an, maka ikutilah bacaan tersebut. kemudian kami akan medatangkan penjelasan.” <br><br>
+                Berantas buta huruf Al Qur’an ( BBQ ) bertujuan untuk menyiapkan anak didik agar menjadi generasi Qur’ani yang mampu membaca Al Qur’an sesuai dengan kaidah kaidah tajwid. Target pokok yag ingin di capai dalam program ini adalah mengantarkan anak didik mampu membaca Al Qur’an dengan baik dan benar. <br><br>
+                Program Berantas Buta Huruf Al – Qur’an ( BBQ ) ini kelasnya di buka untuk usia anak – anak, Remaja & Ummahat. Untuk lamanya program pendidikan 5/6 bulan ( satu semester ), bagi santri yang sudah bisa membaca Al Qur’an akan di naikkan jenjang pendidikan ke program Tahsin 1.
 
               </p>
               <div class="uk-child-width-1-2@m" uk-grid uk-lightbox="animation: scale">
                 <div style="margin-left: -13px;">
                   <a class="uk-inline" href="<?= base_url(); ?>assets/img/program/bbq1.jpg" data-caption="Lorem ipsum dolor sit">
-                    <img src="<?= base_url(); ?>assets/img/program/bbq1.jpg"alt="">
+                    <img src="<?= base_url(); ?>assets/img/program/bbq1.jpg" alt="">
                   </a>
                   <p style="margin-left: 10px;font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 160%;color: #666666; margin-top: 20px;">Talaqqi Mitsaliyah yaitu menerangkan pokok – pokok pelajaran secara klasikal menggunakan peraga dengan suara lantang dan jelas kemudia santri menyimak stelah itu mengikutinya.</p>
                 </div>
@@ -34,7 +34,7 @@
                   <a class="uk-inline" href="<?= base_url(); ?>assets/img/program/bbq2.jpg" data-caption="Lorem ipsum dolor sit">
                     <img src="<?= base_url(); ?>assets/img/program/bbq2.jpg" alt="">
                   </a>
-                  <p style="margin-left: 10px;font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 160%;color: #666666; margin-top: 20px;">Talaqqi Fardi yaitu guru sebagai penyimak saja, dan memantau bacaan para santri sesuai dengan capaian masing – masing di kelas.  </p>
+                  <p style="margin-left: 10px;font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 160%;color: #666666; margin-top: 20px;">Talaqqi Fardi yaitu guru sebagai penyimak saja, dan memantau bacaan para santri sesuai dengan capaian masing – masing di kelas. </p>
                 </div>
               </div>
             </div>
@@ -84,17 +84,15 @@
             <div class="card text-white bg-dark mb-3" style="max-width: 18rem;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;margin-left: 18px;">
               <div class="card-header" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 20px;color: #FFFFFF;">
                 <div class="col">
-                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;">Hari ini <b style="margin-left: 47px;">78</b></a>
-                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;margin-left: 13px;">kemarin <b style="margin-left: 16px;">45</b></a>
+                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;">Pengunjung Hari ini <b style="margin-left: 47px;"><?= $pengunjunghariini; ?></b></a>
                 </div>
                 <br>
                 <div class="col">
-                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;">Minggu ini <b style="margin-left: 20px;">124</b></a>
-                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;margin-left: 13px;">Bulan ini <b style="margin-left: 7px;">224</b></a>
+                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;">Pengunjung Online <b style="margin-left: 20px;"><?= $pengunjungonline; ?></b></a>
                 </div>
                 <hr color="white">
                 <div class="col">
-                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 20px;line-height: 25px;color: #FFFFFF;">Total Kunjungan 12455</a>
+                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 20px;line-height: 25px;color: #FFFFFF;">Total Kunjungan <?= $totalpengunjung; ?></a>
                 </div>
               </div>
             </div>

@@ -17,12 +17,12 @@
               <br>
               <h2 style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 34px;line-height: 50px;background: linear-gradient(358deg, #06876C 25%, #49C4AA 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Program Tahfizh Qur'an</h2>
               <p style="font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 16px;line-height: 20px;color: #666666;">
-                
-Dasar program in mengacu pada sabda nabi Muhammad SAW, “ Sesungguhnya jiwa yang tiada   dalam dadanya Al Qur’an, seperti rumah yang runtuh.” Maka setelah santri selesai di jenjang tahsin, selanjutnya ke program tahfidz.
-<br><br>
-Program Tahfdiz al – Qur’an ini merupakan program pendidikan al – Qur’an untuk Anak – Remaja – Dewasa. Adapun tujuan program Tahfizh Qur’an ini adalah selain membiasakan diri dalam berinteraksi dengan Al Qur’an yang akan menjadi ahlullah (keluarga Allah) diakhirat kelak. Sedangkan target program Tahfizh Qur’an adalah 2 juz dalam 3 semester, dengan masing – masing 1 semester sebanyak 1 juz.
-<br><br>
-Dalam setoran hafalan yang diterapkan di Rumah Qur’an Ihya Ul Ummah ini di awali dari juz 30,29,28 dan seterusnya. Adapun materi penunjang yang di berikan dalam proses menghafal ini diantaranya adalah memperkuat “Murojaah” dan “Tahsin Tilawah” ( Memperbaiki bacaan Al – Qur’an). Seseorang yang sudah mampu membaca Al Qur’an dengan lancar dan benar maka ia disebut Mahir atau Mutqin. 
+
+                Dasar program in mengacu pada sabda nabi Muhammad SAW, “ Sesungguhnya jiwa yang tiada dalam dadanya Al Qur’an, seperti rumah yang runtuh.” Maka setelah santri selesai di jenjang tahsin, selanjutnya ke program tahfidz.
+                <br><br>
+                Program Tahfdiz al – Qur’an ini merupakan program pendidikan al – Qur’an untuk Anak – Remaja – Dewasa. Adapun tujuan program Tahfizh Qur’an ini adalah selain membiasakan diri dalam berinteraksi dengan Al Qur’an yang akan menjadi ahlullah (keluarga Allah) diakhirat kelak. Sedangkan target program Tahfizh Qur’an adalah 2 juz dalam 3 semester, dengan masing – masing 1 semester sebanyak 1 juz.
+                <br><br>
+                Dalam setoran hafalan yang diterapkan di Rumah Qur’an Ihya Ul Ummah ini di awali dari juz 30,29,28 dan seterusnya. Adapun materi penunjang yang di berikan dalam proses menghafal ini diantaranya adalah memperkuat “Murojaah” dan “Tahsin Tilawah” ( Memperbaiki bacaan Al – Qur’an). Seseorang yang sudah mampu membaca Al Qur’an dengan lancar dan benar maka ia disebut Mahir atau Mutqin.
 
               </p>
               <div class="uk-child-width-1-2@m" uk-grid uk-lightbox="animation: scale">
@@ -86,17 +86,15 @@ Dalam setoran hafalan yang diterapkan di Rumah Qur’an Ihya Ul Ummah ini di awa
             <div class="card text-white bg-dark mb-3" style="max-width: 18rem;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;margin-left: 18px;">
               <div class="card-header" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 20px;color: #FFFFFF;">
                 <div class="col">
-                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;">Hari ini <b style="margin-left: 47px;">78</b></a>
-                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;margin-left: 13px;">kemarin <b style="margin-left: 16px;">45</b></a>
+                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;">Pengunjung Hari ini <b style="margin-left: 47px;"><?= $pengunjunghariini; ?></b></a>
                 </div>
                 <br>
                 <div class="col">
-                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;">Minggu ini <b style="margin-left: 20px;">124</b></a>
-                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;margin-left: 13px;">Bulan ini <b style="margin-left: 7px;">224</b></a>
+                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 14px;line-height: 17px;color: #FFFFFF;">Pengunjung Online <b style="margin-left: 20px;"><?= $pengunjungonline; ?></b></a>
                 </div>
                 <hr color="white">
                 <div class="col">
-                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 20px;line-height: 25px;color: #FFFFFF;">Total Kunjungan 12455</a>
+                  <a href="#" style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 20px;line-height: 25px;color: #FFFFFF;">Total Kunjungan <?= $totalpengunjung; ?></a>
                 </div>
               </div>
             </div>
