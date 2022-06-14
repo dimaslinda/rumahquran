@@ -30,7 +30,7 @@
                             <div class="uk-card uk-card-default uk-card-body" style="padding: 6px;height: 240px;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;">
                                     <center><img src="<?= base_url(); ?>assets/img/phone.png" style="margin: 31px auto;margin-bottom: 0px;" alt=""></center> <br>
                                     <p id="pkontak">
-                                    (021) 56941324 <br><br> 0813-8042-2228 (WA)
+                                    (021) 56941324 <br><br> 0819-3806-7491 (WA)
                                     </p>
                             </div>
                         </div>

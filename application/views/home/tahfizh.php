@@ -17,22 +17,26 @@
               <br>
               <h2 style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 34px;line-height: 50px;background: linear-gradient(358deg, #06876C 25%, #49C4AA 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Program Tahfizh Qur'an</h2>
               <p style="font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 16px;line-height: 20px;color: #666666;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae auctor aliquam mollis diam. Ultrices et nisi, aliquam ut neque venenatis elit faucibus faucibus. Tincidunt eleifend velit purus mattis orci turpis. Sodales a, fringilla fringilla nec. Malesuada tincidunt velit ipsum amet amet etiam elementum. Fermentum orci eros praesent tristique quam nunc orci. Egestas sit turpis volutpat viverra tristique metus habitasse. <br><br>
-                At quam ut in eu mattis interdum faucibus ornare tellus. Cursus pharetra habitant lacinia est. Nunc, eget massa morbi id eu consectetur dui quam at. Nunc aliquet sit molestie eget auctor consequat. Rutrum feugiat at eget fames nullam habitant eu. Sapien sit volutpat dui amet, facilisis mauris. Nulla quis nisi, quam gravida in. Nisl ullamcorper massa et interdum a. Quis nibh bibendum maecenas lobortis erat sed. Habitasse velit dui cras nunc egestas mattis ut eu sit. In donec cursus aliquam, feugiat rhoncus risus. Sapien non eu, lacus ut morbi commodo viverra mattis sem. Purus mattis sed vestibulum ac facilisi pellentesque. <br><br>
-                Semper at phasellus sed justo, aliquet. Ac habitant mollis ornare tellus eget tellus mi. In egestas morbi vestibulum urna turpis diam at quam. Egestas velit vitae vitae purus ornare et. Quis amet parturient ac mauris lorem ullamcorper. Dui lorem turpis tellus id ac. Metus nec eget aenean cursus. Ut vitae massa suspendisse egestas lorem. Pellentesque et fermentum in nulla. Nec diam interdum eu, a aliquam velit. Nunc vulputate ullamcorper condimentum pellentesque turpis aliquet. Est, et massa neque, aliquet bibendum.
+                
+Dasar program in mengacu pada sabda nabi Muhammad SAW, “ Sesungguhnya jiwa yang tiada   dalam dadanya Al Qur’an, seperti rumah yang runtuh.” Maka setelah santri selesai di jenjang tahsin, selanjutnya ke program tahfidz.
+<br><br>
+Program Tahfdiz al – Qur’an ini merupakan program pendidikan al – Qur’an untuk Anak – Remaja – Dewasa. Adapun tujuan program Tahfizh Qur’an ini adalah selain membiasakan diri dalam berinteraksi dengan Al Qur’an yang akan menjadi ahlullah (keluarga Allah) diakhirat kelak. Sedangkan target program Tahfizh Qur’an adalah 2 juz dalam 3 semester, dengan masing – masing 1 semester sebanyak 1 juz.
+<br><br>
+Dalam setoran hafalan yang diterapkan di Rumah Qur’an Ihya Ul Ummah ini di awali dari juz 30,29,28 dan seterusnya. Adapun materi penunjang yang di berikan dalam proses menghafal ini diantaranya adalah memperkuat “Murojaah” dan “Tahsin Tilawah” ( Memperbaiki bacaan Al – Qur’an). Seseorang yang sudah mampu membaca Al Qur’an dengan lancar dan benar maka ia disebut Mahir atau Mutqin. 
+
               </p>
               <div class="uk-child-width-1-2@m" uk-grid uk-lightbox="animation: scale">
                 <div style="margin-left: -13px;">
-                  <a class="uk-inline" href="<?= base_url(); ?>assets/img/program/program2.png" data-caption="Lorem ipsum dolor sit">
-                    <img src="<?= base_url(); ?>assets/img/program/program2.png" style="height: 218px;" alt="">
+                  <a class="uk-inline" href="<?= base_url(); ?>assets/img/program/tahfizh1.jpg" data-caption="Lorem ipsum dolor sit">
+                    <img src="<?= base_url(); ?>assets/img/program/tahfizh1.jpg" style="height: 218px;" alt="">
                   </a>
-                  <p style="margin-left: 10px;font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 160%;color: #666666;">Lorem ipsum dolor sit</p>
+                  <p style="margin-left: 10px;font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 160%;color: #666666; margin-top: 20px;">Murojaah bersama selalu di lakukan oleh santri Tahfidz Rumah Qur’an di awal pembukaan kelas hal ini bertujuan agar hafalan yang sudah di hafal semakin melekat dan mutqin.</p>
                 </div>
                 <div>
-                  <a class="uk-inline" href="<?= base_url(); ?>assets/img/program/program3.png" data-caption="Lorem ipsum dolor sit">
-                    <img src="<?= base_url(); ?>assets/img/program/program3.png" alt="">
+                  <a class="uk-inline" href="<?= base_url(); ?>assets/img/program/tahfizh2.jpg" data-caption="Lorem ipsum dolor sit">
+                    <img src="<?= base_url(); ?>assets/img/program/tahfizh2.jpg" alt="">
                   </a>
-                  <p style="margin-left: 10px;font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 160%;color: #666666;">Lorem ipsum dolor sit</p>
+                  <p style="margin-left: 10px;font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 160%;color: #666666; margin-top: 20px;">Sesi ziyadah yaitu sesi dimana para santri menyiapkan hafalan barunya untuk di setorkan kepada gurunya. </p>
                 </div>
               </div>
             </div>

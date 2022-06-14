@@ -17,9 +17,11 @@
                 <br>
                 <h2 style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 34px;line-height: 50px;background: linear-gradient(358deg, #06876C 25%, #49C4AA 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Rumah Qur’an Ihya Ul Ummah (RQIU)</h2>
                 <p style="font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 16px;line-height: 20px;color: #666666;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae auctor aliquam mollis diam. Ultrices et nisi, aliquam ut neque venenatis elit faucibus faucibus. Tincidunt eleifend velit purus mattis orci turpis. Sodales a, fringilla fringilla nec. Malesuada tincidunt velit ipsum amet amet etiam elementum. Fermentum orci eros praesent tristique quam nunc orci. Egestas sit turpis volutpat viverra tristique metus habitasse. <br><br>
-                At quam ut in eu mattis interdum faucibus ornare tellus. Cursus pharetra habitant lacinia est. Nunc, eget massa morbi id eu consectetur dui quam at. Nunc aliquet sit molestie eget auctor consequat. Rutrum feugiat at eget fames nullam habitant eu. Sapien sit volutpat dui amet, facilisis mauris. Nulla quis nisi, quam gravida in. Nisl ullamcorper massa et interdum a. Quis nibh bibendum maecenas lobortis erat sed. Habitasse velit dui cras nunc egestas mattis ut eu sit. In donec cursus aliquam, feugiat rhoncus risus. Sapien non eu, lacus ut morbi commodo viverra mattis sem. Purus mattis sed vestibulum ac facilisi pellentesque. <br><br>
-                Semper at phasellus sed justo, aliquet. Ac habitant mollis ornare tellus eget tellus mi. In egestas morbi vestibulum urna turpis diam at quam. Egestas velit vitae vitae purus ornare et. Quis amet parturient ac mauris lorem ullamcorper. Dui lorem turpis tellus id ac. Metus nec eget aenean cursus. Ut vitae massa suspendisse egestas lorem. Pellentesque et fermentum in nulla. Nec diam interdum eu, a aliquam velit. Nunc vulputate ullamcorper condimentum pellentesque turpis aliquet. Est, et massa neque, aliquet bibendum.
+                Rumah Qur’an Ihya Ul Ummah (RQIU) merupakan salah satu program unggulan Yayasan Ihya Ul Ummah yang secara khusus dirancang untuk mendekatkan dan membumikan al Qur’an di tengah-tengah masyarakat.
+<br><br>
+Program di lembaga ini meliputi 3 hal yakni berantas buta huruf Alquran, perbaikan bacaan Al-Quran (tahsin tilawah), dan penghafalan Al-Quran (tafidz). Dimana ketika santri telah selesai menghafal, mereka dapat mengambil sanad. Selain itu diadakan wisuda bagi santri yang menyelesaikan hafalannya.
+<br><br>
+Selain itu, dalam belajar Alquran pihaknya memiliki metode khusus yang disebut Ihya. Metode ini memiliki beberapa kelebihan, diantaranya meggunakan mushaf Utsman Toha atau seperti cetakan Madinah. Dimana mushaf tersebut adalah mushaf internasional. Kemudian kelebihan lainnya adalah bagian pertama diawali dengan pembelajaran mengenai makhrajul huruf.
                 </p>
                 <img src="<?= base_url(); ?>assets/img/about/tentangkami2.png" alt="">
 
@@ -34,23 +36,23 @@
                     <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
                             <div>
                                 <div class="uk-card uk-card-default uk-card-body" style="padding: 6px;height: 260px;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;">
-                                    <img src="<?= base_url(); ?>assets/img/about/profile1.png" alt=""> <br><br>
-                                    <p style="font-family: Quicksand;font-style: normal;margin-bottom:6px;font-weight: bold;font-size: 15.5896px;line-height: 19px;text-align: center;color: #FFFFFF;">Ustadz Fujhi Ashlam</p>
-                                    <p style="font-family: Quicksand;margin-bottom:6px;font-style: normal;font-weight: 500;font-size: 8.393px;line-height: 13px;text-align: center;color: #FFFFFF;">Mudir Pondok Tahfizhul Qur'an Adiba</p>
+                                    <img src="<?= base_url(); ?>assets/img/about/profile3.png" alt=""> <br><br>
+                                    <p style="font-family: Quicksand; font-style: normal; margin-bottom: 6px; font-weight: bold; font-size: 19.5896px; line-height: 19px; text-align: center; color: #FFFFFF; margin-top: -20px;">Ustadzah Riyanah</p>
+                                    <p style="font-family: Quicksand;margin-bottom:6px;font-style: normal;font-weight: 500;font-size: 13.393px;px;line-height: 13px;text-align: center;color: #FFFFFF;">Direktur pendidikan</p>
                                 </div>
                             </div>
                             <div>
                                 <div class="uk-card uk-card-default uk-card-body" style="padding: 6px;height: 260px;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;">
                                         <img src="<?= base_url(); ?>assets/img/about/profile2.png" alt=""> <br><br>
-                                        <p style="font-family: Quicksand;font-style: normal;margin-bottom:6px;font-weight: bold;font-size: 15.5896px;line-height: 19px;text-align: center;color: #FFFFFF;">Ustadz Fujhi Ashlam</p>
-                                        <p style="font-family: Quicksand;margin-bottom:6px;font-style: normal;font-weight: 500;font-size: 8.393px;line-height: 13px;text-align: center;color: #FFFFFF;">Mudir Pondok Tahfizhul Qur'an Adiba</p>
+                                        <p style="font-family: Quicksand; font-style: normal; margin-bottom: 6px; font-weight: bold; font-size: 19.5896px; line-height: 19px; text-align: center; color: #FFFFFF; margin-top: -20px;">Ustadz Mukhlis</p>
+                                        <p style="font-family: Quicksand;margin-bottom:6px;font-style: normal;font-weight: 500;font-size: 13.393px;px;line-height: 13px;text-align: center;color: #FFFFFF;">Mudir Rumah Qur'an</p>
                                 </div>
                             </div>
                             <div>
                                 <div class="uk-card uk-card-default uk-card-body" style="padding: 6px;height: 260px;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;">
-                                        <img src="<?= base_url(); ?>assets/img/about/profile3.png" alt=""> <br><br>
-                                        <p style="font-family: Quicksand;font-style: normal;margin-bottom:6px;font-weight: bold;font-size: 15.5896px;line-height: 19px;text-align: center;color: #FFFFFF;">Ustadz Fujhi Ashlam</p>
-                                        <p style="font-family: Quicksand;margin-bottom:6px;font-style: normal;font-weight: 500;font-size: 8.393px;line-height: 13px;text-align: center;color: #FFFFFF;">Mudir Pondok Tahfizhul Qur'an Adiba</p>
+                                        <img src="<?= base_url(); ?>assets/img/about/profile1.png" alt=""> <br><br>
+                                        <p style="font-family: Quicksand; font-style: normal; margin-bottom: 6px; font-weight: bold; font-size: 19.5896px; line-height: 19px; text-align: center; color: #FFFFFF; margin-top: -20px;">Ustadzah Marwa</p>
+                                        <p style="font-family: Quicksand;margin-bottom:6px;font-style: normal;font-weight: 500;font-size: 13.393px;px;line-height: 13px;text-align: center;color: #FFFFFF;">Sekretaris Rumah Qur'an</p>
                                 </div>
                             </div>
                     </div>

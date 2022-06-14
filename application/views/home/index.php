@@ -27,16 +27,24 @@
   <div class="container">
     <div class="row row-eq-height justify-content-evenly">
       <div class="col-4 image-grid-item">
+        <a href="<?= base_url(); ?>home/tahsin">
         <center><img src="<?= base_url(); ?>assets/img/tilawah.png" alt=""></center>
         <p>Tahsin Tilawah</p>
+        </a>
       </div>
+      
       <div class="col-4 image-grid-item">
+      <a href="<?= base_url(); ?>home/program">
         <center><img src="<?= base_url(); ?>assets/img/huruf.png" alt=""></center>
         <p>Berantas Buta Huruf Qur'an</p>
+        </a>
       </div>
+    
       <div class="col-4 image-grid-item">
+        <a href="<?= base_url(); ?>home/tahfizh">
         <center><img src="<?= base_url(); ?>assets/img/quran.png" alt=""></center>
         <p>Tahfizh Qur'an</p>
+        </a>
       </div>
     </div>
   </div>
@@ -98,7 +106,7 @@
                         <a href="<?= base_url(); ?>home/detailgallery/<?= $gl['id_gallery']; ?>">
                           <h5 class="card-title" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 24px;line-height: 30px;color: #FFFFFF;"><?= $gl['judul']; ?></h5>
                         </a>
-                        <p class="card-text" style="margin-bottom: 16px;"><small style="color: #FFFFFF;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 12px;line-height: 15px;"><i class="fa fa-clock-o" aria-hidden="true"></i> <?= date('F d, Y', strtotime($gl['tanggal'])); ?> <i class="fa fa-comments" aria-hidden="true"></i> <?= $gl['kategori']; ?> </small></p>
+                        <p class="card-text" style="margin-bottom: 16px;"><small style="color: #FFFFFF;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 12px;line-height: 15px;"><i class="fa fa-clock-o" aria-hidden="true"></i> <?= date('F d, Y', strtotime($gl['tanggal'])); ?> <i class="fa fa-comments" aria-hidden="true"></i> <?= $gl['kategori']; ?></small></p>
                         <p class="card-text" style="font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 16px;line-height: 20px;color: #FFFFFF;"><?= substr_replace($gl['isi_berita'], "...", 200); ?></p>
                       </div>
                     </div>
@@ -289,7 +297,7 @@
           <div class="card mb-3" id="donasi1">
             <div class="card-header" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 20px;color: #FFFFFF;">
               <p style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 24px;line-height: 30px;text-align: center;background: -webkit-linear-gradient(164deg, #06876C, #49C4AA);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Rekening Donasi Sahabat Qur’an :</p>
-              <p id='rekening'>Bank Syariah Mandiri (451) <br> No. Rekening <span style="color: #F28153;">703 7788 451</span> <br> a.n Yayasan Ihya Ul Ummah</p>
+              <p id='rekening'>Bank Syariah Mandiri (451) <br> No. Rekening <span style="color: #F28153;">703 - 1726 - 403</span> <br> a.n Yayasan Ihya Ul Ummah</p>
               <br>
               <p id="p2">
                 “Sesungguhnya orang-orang yang selalu membaca kitab Allah dan mendirikan shalat dan menafkahkan sebahagian dari rezki yang Kami anugerahkan kepada mereka dengan diam-diam dan terang-terangan, mereka itu mengharapkan perniagaan yang tidak akan merugi, agar Allah menyempurnakan kepada mereka pahala mereka dan menambah kepada mereka dari karunia-Nya. Sesungguhnya Allah Maha Pengampun lagi Maha Mensyukuri.
