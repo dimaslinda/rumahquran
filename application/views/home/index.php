@@ -197,7 +197,7 @@
             <div class="uk-panel" id="colpertama">
               <ul class="uk-list">
                 <li>
-                  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsahabatquran.info%2F&tabs=timeline&width=320&height=400&small_header=false&adapt_container_width=false&hide_cover=true&show_facepile=true&appId=340266081602049" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsahabatquran.info%2F&tabs=timeline&width=320&height=400&small_header=false&adapt_container_width=false&hide_cover=true&show_facepile=true&appId=340266081602049" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </li>
             </div>
             <br>

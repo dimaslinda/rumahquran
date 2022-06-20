@@ -888,6 +888,13 @@ input[type="radio"] {
 	margin-top: 117px;
 }
 
+#ourteam {
+	padding: 6px;
+	height: 260px;
+	background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);
+	border-radius: 10px;
+}
+
 
 /* donasi */
 #donasi {
@@ -1066,6 +1073,17 @@ input[type="radio"] {
 
 
 @media (max-width: 500px) {
+	#ourteam {
+		padding: 6px;
+		height: 284px;
+		background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);
+		border-radius: 10px;
+	}
+
+	#ourteam img {
+		margin-left: 43px;
+	}
+
 	#intro {
 		background: url(../img/background.png);
 		background-attachment: scroll;
@@ -1277,8 +1295,11 @@ input[type="radio"] {
 		background: #FFFFFF;
 		box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
 		border-radius: 20px;
-		height: 1413px;
+		height: 1049px;
+		margin-top: 100px;
 	}
+
+
 
 
 	/*--------------------------------------------------------------
@@ -1302,7 +1323,7 @@ input[type="radio"] {
 		box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
 		border-radius: 20px;
 		height: 530px;
-		margin: 119px auto;
+		margin: 566px auto;
 		margin-bottom: 0px;
 		width: 344px;
 		margin-right: 1px;
@@ -1353,7 +1374,7 @@ input[type="radio"] {
 		background: #FFFFFF;
 		box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
 		border-radius: 20px;
-		height: 335px;
+		height: 243px;
 		margin: 0px auto;
 		margin-bottom: 0px;
 		width: 375px;

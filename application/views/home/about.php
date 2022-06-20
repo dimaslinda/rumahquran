@@ -35,21 +35,21 @@
              <!-- kolom our team dalam -->
              <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
                <div>
-                 <div class="uk-card uk-card-default uk-card-body" style="padding: 6px;height: 260px;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;">
+                 <div class="uk-card uk-card-default uk-card-body" id="ourteam">
                    <img src="<?= base_url(); ?>assets/img/about/profile3.png" alt=""> <br><br>
                    <p style="font-family: Quicksand; font-style: normal; margin-bottom: 6px; font-weight: bold; font-size: 19.5896px; line-height: 19px; text-align: center; color: #FFFFFF; margin-top: -20px;">Ustadzah Riyanah</p>
                    <p style="font-family: Quicksand;margin-bottom:6px;font-style: normal;font-weight: 500;font-size: 13.393px;line-height: 13px;text-align: center;color: #FFFFFF;">Direktur pendidikan</p>
                  </div>
                </div>
                <div>
-                 <div class="uk-card uk-card-default uk-card-body" style="padding: 6px;height: 260px;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;">
+                 <div class="uk-card uk-card-default uk-card-body" id="ourteam">
                    <img src="<?= base_url(); ?>assets/img/about/profile2.png" alt=""> <br><br>
                    <p style="font-family: Quicksand; font-style: normal; margin-bottom: 6px; font-weight: bold; font-size: 19.5896px; line-height: 19px; text-align: center; color: #FFFFFF; margin-top: -20px;">Ustadz Mukhlis</p>
                    <p style="font-family: Quicksand;margin-bottom:6px;font-style: normal;font-weight: 500;font-size: 13.393px;line-height: 13px;text-align: center;color: #FFFFFF;">Mudir Rumah Qur'an</p>
                  </div>
                </div>
                <div>
-                 <div class="uk-card uk-card-default uk-card-body" style="padding: 6px;height: 260px;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;">
+                 <div class="uk-card uk-card-default uk-card-body" id="ourteam">
                    <img src="<?= base_url(); ?>assets/img/about/profile1.png" alt=""> <br><br>
                    <p style="font-family: Quicksand; font-style: normal; margin-bottom: 6px; font-weight: bold; font-size: 19.5896px; line-height: 19px; text-align: center; color: #FFFFFF; margin-top: -20px;">Ustadzah Marwa</p>
                    <p style="font-family: Quicksand;margin-bottom:6px;font-style: normal;font-weight: 500;font-size: 13.393px;line-height: 13px;text-align: center;color: #FFFFFF;">Sekretaris Rumah Qur'an</p>
