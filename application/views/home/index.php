@@ -192,35 +192,15 @@
           <!-- awal col -->
           <div class="col" id="col2">
             <header class="section-header">
-              <h3>Instagram</h3>
+              <h3>Facebook</h3>
             </header>
-            <div class="uk-panel uk-panel-scrollable" id="colpertama">
+            <div class="uk-panel" id="colpertama">
               <ul class="uk-list">
                 <li>
-                  <img src="<?= base_url(); ?>assets/img/video/instagram.png" alt="">
-                  <a href="#">Lorem ipsum dolor sit amet, consec.</a>
+                  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsahabatquran.info%2F&tabs=timeline&width=320&height=400&small_header=false&adapt_container_width=false&hide_cover=true&show_facepile=true&appId=340266081602049" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </li>
-                <li>
-                  <img src="<?= base_url(); ?>assets/img/video/instagram.png" alt="">
-                  <a href="#">Lorem ipsum dolor sit amet, consec.</a>
-                </li>
-                <li>
-                  <img src="<?= base_url(); ?>assets/img/video/instagram.png" alt="">
-                  <a href="#">Lorem ipsum dolor sit amet, consec.</a>
-                </li>
-                <li>
-                  <img src="<?= base_url(); ?>assets/img/video/instagram.png" alt="">
-                  <a href="#">Lorem ipsum dolor sit amet, consec.</a>
-                </li>
-                <li>
-                  <img src="<?= base_url(); ?>assets/img/video/instagram.png" alt="">
-                  <a href="#">Lorem ipsum dolor sit amet, consec.</a>
-                </li>
-              </ul>
             </div>
             <br>
-            <div id="garis"></div>
-            <a href="#" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 20px;color: #00A381;text-align:center;margin:0px auto;margin:0px 114px;">Lihat Semua</a>
           </div>
           <!-- akhir col -->
           <!-- awal col -->
