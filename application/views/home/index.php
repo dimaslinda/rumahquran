@@ -133,31 +133,59 @@
             <br><br>
             <div class="uk-panel uk-panel-scrollable" id="colpertama">
               <ul class="uk-list">
+                <?php
+                function get_CURL($url)
+                {
+                  $curl = curl_init();
+                  curl_setopt($curl, CURLOPT_URL, $url);
+                  curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+                  $result = curl_exec($curl);
+                  curl_close($curl);
+                  return json_decode($result, true);
+                }
+                $result = get_CURL('https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=UC7qrOky08rwTPLKrizVb_iA&key=AIzaSyCAm2zDkW3X-tOlQ45ZWoiQ-BvM15PIAFA');
+                $youtubeProfilepic = $result['items'][0]['snippet']['thumbnails']['default']['url'];
+                $channelName = $result['items'][0]['snippet']['title'];
+
+                // last video
+                $urlplaylistvideo = 'https://www.googleapis.com/youtube/v3/playlists?channelId=UC7qrOky08rwTPLKrizVb_iA&maxResults=50&key=AIzaSyCAm2zDkW3X-tOlQ45ZWoiQ-BvM15PIAFA&part=snippet';
+                $result = get_CURL($urlplaylistvideo);
+                $urlplaylistvideoId1 = $result['items'][0]['id'];
+                $judulplaylistvideo1 = $result['items'][0]['snippet']['title'];
+                $urlplaylistvideoId2 = $result['items'][1]['id'];
+                $judulplaylistvideo2 = $result['items'][1]['snippet']['title'];
+                $urlplaylistvideoId3 = $result['items'][2]['id'];
+                $judulplaylistvideo3 = $result['items'][2]['snippet']['title'];
+                $urlplaylistvideoId4 = $result['items'][3]['id'];
+                $judulplaylistvideo4 = $result['items'][3]['snippet']['title'];
+                $urlplaylistvideoId5 = $result['items'][4]['id'];
+                $judulplaylistvideo5 = $result['items'][4]['snippet']['title'];
+                ?>
                 <li>
-                  <img src="<?= base_url(); ?>assets/img/video/1.png" alt="">
-                  <a href="#">Lorem ipsum dolor sit amet, consec.</a>
+                  <iframe width="120" height="90" src="https://www.youtube.com/embed/videoseries?list=<?= $urlplaylistvideoId1; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <a href="https://www.youtube.com/watch?v=Eay0RyVzh34&list=<?= $urlplaylistvideoId1; ?>" target="_blank"><?= $judulplaylistvideo1; ?></a>
                 </li>
                 <li>
-                  <img src="<?= base_url(); ?>assets/img/video/2.png" alt="">
-                  <a href="#">Lorem ipsum dolor sit amet, consec.</a>
+                  <iframe width="120" height="90" src="https://www.youtube.com/embed/videoseries?list=<?= $urlplaylistvideoId2; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <a href="https://www.youtube.com/watch?v=Eay0RyVzh34&list=<?= $urlplaylistvideoId2; ?>" target="_blank"><?= $judulplaylistvideo2; ?></a>
                 </li>
                 <li>
-                  <img src="<?= base_url(); ?>assets/img/video/3.png" alt="">
-                  <a href="#">Lorem ipsum dolor sit amet, consec.</a>
+                  <iframe width="120" height="90" src="https://www.youtube.com/embed/videoseries?list=<?= $urlplaylistvideoId3; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <a href="https://www.youtube.com/watch?v=Eay0RyVzh34&list=<?= $urlplaylistvideoId3; ?>" target="_blank"><?= $judulplaylistvideo3; ?></a>
                 </li>
                 <li>
-                  <img src="<?= base_url(); ?>assets/img/video/4.png" alt="">
-                  <a href="#">Lorem ipsum dolor sit amet, consec.</a>
+                  <iframe width="120" height="90" src="https://www.youtube.com/embed/videoseries?list=<?= $urlplaylistvideoId4; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <a href="https://www.youtube.com/watch?v=Eay0RyVzh34&list=<?= $urlplaylistvideoId4; ?>" target="_blank"><?= $judulplaylistvideo4; ?></a>
                 </li>
                 <li>
-                  <img src="<?= base_url(); ?>assets/img/video/5.png" alt="">
-                  <a href="#">Lorem ipsum dolor sit amet, consec.</a>
+                  <iframe width="120" height="90" src="https://www.youtube.com/embed/videoseries?list=<?= $urlplaylistvideoId5; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <a href="https://www.youtube.com/watch?v=Eay0RyVzh34&list=<?= $urlplaylistvideoId5; ?>" target="_blank"><?= $judulplaylistvideo5; ?></a>
                 </li>
               </ul>
             </div>
             <br>
             <div id="garis"></div>
-            <a href="#" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 20px;color: #00A381;text-align:center;margin:0px auto;margin:0px 114px;">Lihat Semua</a>
+            <a href="https://www.youtube.com/c/SahabatQuranOfficial/" target="_blank" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 20px;color: #00A381;text-align:center;margin:0px auto;margin:0px 114px;">Lihat Semua</a>
           </div>
           <!-- akhir col -->
           <br>
