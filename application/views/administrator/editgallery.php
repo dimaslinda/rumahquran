@@ -40,6 +40,9 @@
                             <label for="keterangan_gambar">Keterangan gambar</label>
                             <input type="text" class="form-control" id="keterangan_gambar" name="keterangan_gambar" value="<?= $detail['keterangan_gambar']; ?>">
                         </div>
+                        <div class="form-group">
+                            <input type="hidden" class="form-control" id="user" name="user" value="<?= $user['nama_lengkap']; ?>">
+                        </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>

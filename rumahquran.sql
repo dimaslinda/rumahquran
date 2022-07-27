@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 25, 2022 at 11:37 AM
--- Server version: 10.4.21-MariaDB
--- PHP Version: 7.3.31
+-- Generation Time: Jul 27, 2022 at 09:40 AM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -105,6 +105,20 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id_user`, `username`, `password`, `nama_lengkap`, `email`, `foto`, `level`) VALUES
 (4, 'dimasbon', '$2y$10$.TYULcvWoQ5cVYY50Pxi1.VmjiRzjKxh.GTnNMaHedXbGnexASyW.', 'Dimas Bagas Baskoro', 'deniasitudimas@gmail.com', 'boy.png', 'Admin');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `visitor`
+--
+
+CREATE TABLE `visitor` (
+  `ip` varchar(20) NOT NULL,
+  `date` date NOT NULL,
+  `hits` int(11) NOT NULL,
+  `online` varchar(255) NOT NULL,
+  `time` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Indexes for dumped tables

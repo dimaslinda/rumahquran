@@ -14,13 +14,12 @@
                             <br>
                             <h2 style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 34px;line-height: 50px;background: linear-gradient(358deg, #06876C 25%, #49C4AA 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><?= $detail['judul']; ?></h2>
                             <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
-                                <li><a style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: bold;color: #666666;" href="#">Ditulis oleh : <span style="color:#00A381;">dr. Fitrina Aprilia</span></a></li>
+                                <li><a style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: bold;color: #666666;" href="#">Ditulis oleh : <span style="color:#00A381;"><?= $detail['user']; ?></span></a></li>
                                 <li><a style="text-transform: none;font-family: Quicksand;font-style: normal;font-weight: bold;color: #666666;" href="#"><i class="fa fa-clock-o" aria-hidden="true"></i> <?= date('F d, Y', strtotime($detail['tanggal'])); ?></a></li>
                             </ul>
                             <p style="font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 16px;line-height: 20px;color: #666666;">
                                 <?= $detail['isi_berita']; ?>
                             </p>
-                            <p style="font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 16px;line-height: 20px;color: #666666;">Baca juga : <span style="color:#00A381;"><b>Suka Makanan Asin. Ini Tanda Tubuh Kelebihan Garam</b></span></p>
                         </div>
                     </div>
 

@@ -44,6 +44,9 @@
                             <input type="text" class="form-control" id="keterangan_gambar" name="keterangan_gambar" value="<?= set_value('keterangan_gambar'); ?>">
                             <?= form_error('keterangan_gambar', '<small class="text-danger">', '</small>'); ?>
                         </div>
+                        <div class="form-group">
+                            <input type="hidden" class="form-control" id="user" name="user" value="<?= $user['nama_lengkap']; ?>">
+                        </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>

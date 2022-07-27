@@ -15,18 +15,18 @@
             <!-- kolom artikel dalam -->
             <div class="col" style="background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;height: 1295px;">
               <div class="card mb-3" style="border: 1px solid transparent;margin:-21px auto;background-color:transparent;">
-                <?php foreach ($artikel as $ar) : ?>
+                <?php foreach ($detail1 as $d) : ?>
                   <div class="row g-0" style="margin: 20px auto;">
                     <div class="col-4">
-                      <img src="<?= base_url(); ?>assets/img/artikel/<?= $ar['gambar']; ?>" class="img-fluid rounded-start" alt="...">
+                      <img src="<?= base_url(); ?>assets/img/artikel/<?= $d['gambar']; ?>" class="img-fluid rounded-start" alt="...">
                     </div>
                     <div class="col">
                       <div class="card-body" style="padding: 0em;">
-                        <a href="<?= base_url(); ?>home/detailartikel/<?= $ar['id_berita']; ?>">
-                          <h5 class="card-title" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 24px;line-height: 30px;color: #FFFFFF;"><?= $ar['judul']; ?></h5>
+                        <a href="<?= base_url(); ?>home/detailartikel/<?= $d['id_berita']; ?>">
+                          <h5 class="card-title" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 24px;line-height: 30px;color: #FFFFFF;"><?= $d['judul']; ?></h5>
                         </a>
-                        <p class="card-text" style="margin-bottom: 16px;"><small style="color: #FFFFFF;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 12px;line-height: 15px;"><i class="fa fa-clock-o" aria-hidden="true"></i> <?= date('F d, Y', strtotime($ar['tanggal'])); ?> <i class="fa fa-comments" aria-hidden="true"></i> <?= $ar['kategori']; ?></small></p>
-                        <p class="card-text" style="font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 16px;line-height: 20px;color: #FFFFFF;"><?= substr_replace($ar['isi_berita'], "...", 200); ?></p>
+                        <p class="card-text" style="margin-bottom: 16px;"><small style="color: #FFFFFF;font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 12px;line-height: 15px;"><i class="fa fa-clock-o" aria-hidden="true"></i> <?= date('F d, Y', strtotime($d['tanggal'])); ?> <i class="fa fa-comments" aria-hidden="true"></i> <?= $d['kategori']; ?></small></p>
+                        <p class="card-text" style="font-family: Quicksand;font-style: normal;font-weight: 500;font-size: 16px;line-height: 20px;color: #FFFFFF;"><?= substr_replace($d['isi_berita'], "...", 200); ?></p>
                       </div>
                     </div>
                   </div>
@@ -34,7 +34,7 @@
                 <br><br>
               </div>
             </div>
-            <a href="#" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 67px;color: #666666;text-align:center;">Page 1 of 8</a>
+            <?= $this->pagination->create_links(); ?>
           </div>
           <!-- kolom Artikel -->
         </div>

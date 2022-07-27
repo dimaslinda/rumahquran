@@ -118,7 +118,8 @@ class Administrator extends CI_Controller
                 'keterangan_gambar' => htmlspecialchars($this->input->post('keterangan_gambar')),
                 'tanggal' => date('Y-m-d'),
                 'jam' => time(),
-                'gambar' => $gambar
+                'gambar' => $gambar,
+                'user' => htmlspecialchars($this->input->post('user'))
             );
             $this->db->insert('artikel', $data);
             $this->session->set_flashdata('message', '<div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -169,6 +170,7 @@ class Administrator extends CI_Controller
         $sub_judul = htmlspecialchars($this->input->post('sub_judul'));
         $isi_berita = nl2br(htmlspecialchars($this->input->post('isi_berita')));
         $keterangan_gambar = htmlspecialchars($this->input->post('keterangan_gambar'));
+        $users = htmlspecialchars($this->input->post('user'));
 
         $data = array(
             'kategori' => $kategori,
@@ -178,7 +180,8 @@ class Administrator extends CI_Controller
             'isi_berita' => $isi_berita,
             'keterangan_gambar' => $keterangan_gambar,
             'tanggal' => date('Y-m-d'),
-            'jam' => time()
+            'jam' => time(),
+            'user' => $users
         );
         if (!empty($gambar)) {
             $data['gambar'] = $gambar;
@@ -240,7 +243,8 @@ class Administrator extends CI_Controller
                 'gambar' => $gambar,
                 'keterangan_gambar' => htmlspecialchars($this->input->post('keterangan_gambar')),
                 'tanggal' => date('Y-m-d'),
-                'jam' => date('h:i A')
+                'jam' => date('h:i A'),
+                'user' => htmlspecialchars($this->input->post('user'))
             );
             $this->db->insert('gallery', $data);
             $this->session->set_flashdata('message', '<div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -290,6 +294,7 @@ class Administrator extends CI_Controller
         $judul = htmlspecialchars($this->input->post('judul'));
         $isi_berita = nl2br(htmlspecialchars($this->input->post('isi_berita')));
         $keterangan_gambar = htmlspecialchars($this->input->post('keterangan_gambar'));
+        $users = htmlspecialchars($this->input->post('user'));
 
         $data = array(
             'kategori' => $kategori,
@@ -297,7 +302,8 @@ class Administrator extends CI_Controller
             'isi_berita' => $isi_berita,
             'keterangan_gambar' => $keterangan_gambar,
             'tanggal' => date('Y-m-d'),
-            'jam' => date('h:i A')
+            'jam' => date('h:i A'),
+            'user' => $users
         );
         if (!empty($gambar)) {
             $data['gambar'] = $gambar;

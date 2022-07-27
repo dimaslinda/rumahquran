@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 defined('BASEPATH') or exit('No direct script access allowed');
 
 class Home extends CI_Controller
@@ -252,8 +253,20 @@ class Home extends CI_Controller
         $data['totalpengunjung'] = $totalpengunjung;
         $data['pengunjungonline'] = $pengunjungonline;
 
+        // config pagination
+        $config['base_url'] = 'http://localhost/rumahquran/home/gallery';
+        $config['total_rows'] = $this->Berita_model->countAllGallery();
+        $config['per_page'] = 5;
+
+        // initialize
+        $this->pagination->initialize($config);
+        $detail = $this->Berita_model->getAllGallery();
+        $data['start'] = $this->uri->segment(3);
+        $detail1 = $this->Berita_model->getGallery($config['per_page'], $data['start']);
+        $data['detail1'] = $detail1;
+        $data['detail'] = $detail;
+
         $data['title'] = "Gallery | Ihya UL Ummah";
-        $data['gallery'] = $this->Berita_model->getAllGallery();
 
         $this->load->view('templates/header2', $data);
         $this->load->view('home/gallery', $data);
@@ -287,8 +300,20 @@ class Home extends CI_Controller
         $data['totalpengunjung'] = $totalpengunjung;
         $data['pengunjungonline'] = $pengunjungonline;
 
+        // config pagination
+        $config['total_rows'] = $this->Berita_model->countAllBerita();
+        $config['per_page'] = 5;
+
+        // initialize
+        $this->pagination->initialize($config);
+        $detail = $this->Berita_model->getAllBeritaDesc();
+        $data['start'] = $this->uri->segment(3);
+        $detail1 = $this->Berita_model->getBerita($config['per_page'], $data['start']);
+        $data['detail1'] = $detail1;
+        $data['detail'] = $detail;
+
         $data['title'] = "Artikel | Ihya UL Ummah";
-        $data['artikel'] = $this->Berita_model->detailberitalimit();
+        // $data['artikel'] = $this->Berita_model->detailberitalimit();
 
         $this->load->view('templates/header2', $data);
         $this->load->view('home/artikel', $data);
