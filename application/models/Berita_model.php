@@ -21,11 +21,11 @@ class Berita_model extends CI_Model
     }
     public function getBerita($limit, $start)
     {
-        return $this->db->get('artikel', $limit, $start)->result_array();
+        return $this->db->order_by('id_berita', 'desc')->get('artikel', $limit, $start)->result_array();
     }
     public function getGallery($limit, $start)
     {
-        return $this->db->get('gallery', $limit, $start)->result_array();
+        return $this->db->order_by('id_gallery', 'desc')->get('gallery', $limit, $start)->result_array();
     }
     public function countAllBerita()
     {
