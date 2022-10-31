@@ -43,32 +43,47 @@
         <div class="col">
           <!-- awal col -->
           <div class="col" id="sidebargaleri">
-            <header class="section-header">
+          <header class="section-header">
               <h3>Arsip</h3>
             </header>
 
-            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;margin-top:-25px;margin-left: 18px;">
-              <div class="card-header" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 20px;color: #FFFFFF;">Juni 2021 <button type="button" class="btn btn-primary" style="background: #F28153;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 50px;width:80px;margin:0px 0px 0px 93px;">Lihat</button></div>
+            <div class="card text-white bg-dark mb-3" id="arsip">
+              <div class="card-header" style="ont-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;    float: left;">November 2022 <button type="button" class="btn btn-primary" style="background: #F28153;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 50px;width:80px;margin: 0px 0px 0px 0px;
+    float: right;">Lihat</button></div>
             </div>
 
-            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;margin-left: 18px;">
-              <div class="card-header" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 20px;color: #FFFFFF;">Juni 2021 <button type="button" class="btn btn-primary" style="background: #F28153;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 50px;width:80px;margin:0px 0px 0px 93px;">Lihat</button></div>
+            <div class="card text-white bg-dark mb-3" id="arsip">
+              <div class="card-header" style="ont-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;    float: left;">Oktober 2022 <a href="<?= base_url(); ?>home/arsipoktober">
+              <button type="button" class="btn btn-primary" style="background: #F28153;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 50px;width:80px;margin: 0px 0px 0px 0px;
+    float: right;">Lihat</button>
+              </a> </div>
             </div>
 
-            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;margin-left: 18px;">
-              <div class="card-header" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 20px;color: #FFFFFF;">Juni 2021 <button type="button" class="btn btn-primary" style="background: #F28153;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 50px;width:80px;margin:0px 0px 0px 93px;">Lihat</button></div>
+            <div class="card text-white bg-dark mb-3" id="arsip">
+              <div class="card-header" style="ont-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;    float: left;">September 2022 <a href="<?= base_url(); ?>home/arsipseptember">
+              <button type="button" class="btn btn-primary" style="background: #F28153;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 50px;width:80px;margin: 0px 0px 0px 0px;
+    float: right;">Lihat</button>
+              </a> </div>
             </div>
 
-            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;margin-left: 18px;">
-              <div class="card-header" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 20px;color: #FFFFFF;">Juni 2021 <button type="button" class="btn btn-primary" style="background: #F28153;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 50px;width:80px;margin:0px 0px 0px 93px;">Lihat</button></div>
+            <div class="card text-white bg-dark mb-3" id="arsip">
+              <div class="card-header" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;    float: left;">Agustus 2022 <a href="<?= base_url(); ?>home/arsipagustus">
+                  <button type="button" class="btn btn-primary" style="background: #F28153;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 50px;width:80px;margin: 0px 0px 0px 0px;
+    float: right;">Lihat</button>
+                </a> </div>
             </div>
 
-            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;margin-left: 18px;">
-              <div class="card-header" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 20px;color: #FFFFFF;">Juni 2021 <button type="button" class="btn btn-primary" style="background: #F28153;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 50px;width:80px;margin:0px 0px 0px 93px;">Lihat</button></div>
+            <div class="card text-white bg-dark mb-3" id="arsip">
+              <div class="card-header" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;    color: #FFFFFF;">July 2022 <a href="<?= base_url(); ?>home/arsipjuli">
+                  <button type="button" class="btn btn-primary" style="background: #F28153;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 50px;width:80px;margin: 0px 0px 0px 0px;
+    float: right;">Lihat</button>
+                </a> </div>
             </div>
 
-            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;margin-left: 18px;">
-              <div class="card-header" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 20px;color: #FFFFFF;">Juni 2021 <button type="button" class="btn btn-primary" style="background: #F28153;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 50px;width:80px;margin:0px 0px 0px 93px;">Lihat</button></div>
+            <div class="card text-white bg-dark mb-3" id="arsip">
+              <div class="card-header" style="font-family: Quicksand;font-style: normal;font-weight: bold;font-size: 16px;line-height: 27px;">Juni 2022 <a href="<?= base_url(); ?>home/arsipjuni"><button type="button" class="btn btn-primary" style="background: #F28153;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);border-radius: 50px;width:80px;margin: 0px 0px 0px 0px;
+    float: right;">Lihat</button></a>
+              </div>
             </div>
 
             <div style="border: 1px solid #666666;margin:32px auto;"></div>

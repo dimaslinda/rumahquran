@@ -10,12 +10,12 @@
           <!-- kolom Sepekan Rumah Qur'an -->
           <div class="col" style="background: #fff;box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);border-radius: 20px;">
             <header class="section-header">
-              <h3>Artikel</h3>
+              <h3>Arsip Artikel Bulan Juli</h3>
             </header>
             <!-- kolom artikel dalam -->
-            <div class="col" style="background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;height: 1295px;">
+            <div class="col" style="background: linear-gradient(180deg, #49C4AA 0%, #06876C 100%);border-radius: 10px;height: 1397px;">
               <div class="card mb-3" style="border: 1px solid transparent;margin:-21px auto;background-color:transparent;">
-                <?php foreach ($detail1 as $d) : ?>
+                <?php foreach ($detail as $d) : ?>
                   <div class="row g-0" style="margin: 20px auto;">
                     <div class="col-4">
                       <img src="<?= base_url(); ?>assets/img/artikel/<?= $d['gambar']; ?>" class="img-fluid rounded-start" alt="...">
